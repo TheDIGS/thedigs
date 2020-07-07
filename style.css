@@ -1,0 +1,49 @@
+@font-face {
+  font-family: poppins-bold;
+  src: url(./fonts/Poppins-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: poppins;
+  src: url(./fonts/Poppins-Light.ttf)
+}
+html, body {
+  font-family: poppins;
+}
+a {
+  text-decoration-line: none; 
+  color: black;
+}
+.navBar {
+  background-color: #00000050;
+  text-align: center;
+  font-size: 32px;
+  padding: 10px;
+  font-weight: bold;
+}
+.navButtons {
+  float: right;
+}
+.button {
+  background-color: #ffa600;
+  border-radius: 16px;
+  padding: 5px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 0px 2px
+}
+.btn2 {
+  background-color: #00000025;
+  padding: 5px;
+  display: inline-block;
+  border: solid black;
+}
+.mainContent {}
+.navLinks {
+  text-align: center;
+  font-weight: bold;
+  background-color: #00000050;
+}
+.blog {
+  margin-top: 10px;
+}
