@@ -1,49 +1,43 @@
-@font-face {
-  font-family: poppins-bold;
-  src: url(./fonts/Poppins-Bold.ttf);
-  font-weight: bold;
-}
-@font-face {
-  font-family: poppins;
-  src: url(./fonts/Poppins-Light.ttf)
-}
+/* Presets */
 html, body {
-  font-family: poppins;
+    margin: 0%;
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    background: linear-gradient(#666666, #888888);
+    color: #dddddd;
 }
-a {
-  text-decoration-line: none; 
-  color: black;
+.pad {
+    padding: 10px;
 }
-.navBar {
-  background-color: #00000050;
-  text-align: center;
-  font-size: 32px;
-  padding: 10px;
-  font-weight: bold;
+.spad {
+    padding: 5px;
 }
-.navButtons {
-  float: right;
+/* Website Header */
+.header {
+    padding: 10px;
+    text-align: center;
+    background: black;
+    border-bottom: solid #bbbbbb 4px;
 }
-.button {
-  background-color: #ffa600;
-  border-radius: 16px;
-  padding: 5px;
-  border-style: solid;
-  border-color: black;
-  box-shadow: 0px 2px
+/* Website Main Content */
+.mainContent {
+    padding: 10px;
 }
-.btn2 {
-  background-color: #00000025;
-  padding: 5px;
-  display: inline-block;
-  border: solid black;
+.socials {
+    float: right;
+    text-align: center;
 }
-.mainContent {}
-.navLinks {
-  text-align: center;
-  font-weight: bold;
-  background-color: #00000050;
+/* Website Buttons */
+.btn {
+    background: #ff8800;
+    display: inline-block;
+    border: solid black 2px;
+    border-radius: 32px;
+    font-size: 18px;
+    width: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.blog {
-  margin-top: 10px;
+.btn:hover {
+    background: #ff880075;
 }
