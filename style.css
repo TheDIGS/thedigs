@@ -13,6 +13,11 @@ html, body {
 .spad {
     padding: 5px;
 }
+/* Some ID styling */
+#discordInvite {
+    text-decoration-line: underline;
+    color: #00bbff;
+}
 /* Website Header */
 .header {
     padding: 10px;
