@@ -1,38 +1,28 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>TheDIGS</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TheDIGS' Hideout</title>
 </head>
-
 <body>
-	<div id="navBar" class="navBar">
-		<div>
-			TheDIGS <span style="color: #0088ff;">.github.io</span>
-        <div id="navButtons" class="navButtons">
-          <a href="https://www.youtube.com/channel/UC5P-UKqCrPAxuxDZHKDlJYg" target="_blank" class="button">Youtube</a>
-          <a href="https://www.reddit.com/user/xTheDIGS" target="_blank" class="button">Reddit</a>
-          <a href="https://krunker.io/social.html?p=profile&q=TheDIGS" target="_blank" class="button">Krunker</a>
-       </div>
-       </div>
-      </div>
+    <!--Website Header-->
+    <div class="header">
+        <h1>TheDIGS.github.io</h1>
     </div>
-    <div id="navLinks" class="navLinks">
-      <div class="btn2">Home</div>
-      <div class="btn2">Blog</div>
-    </div>
-    <div id="mainContent" class="mainContent">
-      <div id="blog" class="blog">
-        <h2>Welcome to my blog!</h2>
-        <div>
-          <strong>LATEST POST:</strong>
-          <div onclick="openKrunker()">test</div>
-        </div>
-      </div>
+    <!--Website Main Content-->
+    <div class="mainContent">
+        <aside class="socials pad">
+            <h3>Go follow me!</h3>
+            <button class="btn pad" onclick="openYT()">YouTube Channel</button> <br>
+            <button class="btn pad" onclick="openReddit()">Reddit Account</button> <br>
+            <button class="btn pad" onclick="openTTV()">Twitch Account</button> <br>
+    </aside>
+    <div>
+        <h2>Welcome to the website!</h2>
+        <p>If you're reading this, the website worked. Phew.</p>
     </div>
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
